@@ -15,7 +15,7 @@
 </br>
 </br>
 
-Frontend project.\\n
+Frontend project.\n
 The goal is building and deploying a fully responsive website using the technologies as: HTML, CSS &amp; JavaScript.
 
 </br>
