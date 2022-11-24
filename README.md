@@ -8,6 +8,7 @@
   <div align="center">
     <a>Frontend project</a>
     </br>
+    </br>
     ·
     <a href="https://circleagency.netlify.app/">View deployed demo</a>
     ·
