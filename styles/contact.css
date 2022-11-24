@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --blue1: #072ac8;
+    --blue1_hover: #0b35ed;
+    --blue2: #43d2ff;
+    --blue3: #a2d6f9;
+    --blue4: #d1edff;
+    --blue5: #ecf7ff;
+    --dark: #292e47;
+    --gray1: #6b708d;
+    --gray2: #f2f4fc;
+    --yellow: #ffc600;
+    --white: #ffffff;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--gray2);
+    line-height: 20px;
+    background-color: var(--gray2);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--dark);
+}
+
+.contactSection {
+    padding: 0 30px;
+    margin: 80px 0 140px;
+}
+
+.contactSection > h1 {
+    font-size: 2.5em;
+    margin: 50px 0 100px;
+}
+.contact_form {
+    display: grid;
+    max-width: 100%;
+    gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "name  "
+        "email "
+        "phone"
+        "message "
+        "btn ";
+}
+
+.name {
+    grid-area: name;
+}
+.email {
+    grid-area: email;
+}
+.phone {
+    grid-area: phone;
+}
+.message {
+    grid-area: message;
+}
+.label_input_wraper {
+    display: flex;
+    flex-direction: column;
+}
+.contact-title {
+    margin-bottom: 15px;
+    color: var(--gray1);
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+.contact_text-field {
+    width: 100%;
+    padding: 22px 20px;
+    border: none;
+    background-color: rgba(107, 112, 141, 0.1);
+    font-family: "Roboto", sans-serif;
+}
+.contact_text-field:focus {
+    outline: none;
+    border: 1px solid var(--gray2);
+    box-shadow: 0 0 5px var(--gray1);
+}
+.textTarea_field {
+    height: 200px;
+    resize: none;
+}
+.textTarea_field::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+.btnForm {
+    background-color: var(--blue1);
+    height: 60px;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--gray2);
+    cursor: pointer;
+    border: none;
+    grid-area: btn;
+}
+
+.btnForm:hover {
+    background-color: var(--blue1_hover);
+    -webkit-transition: background-color 250ms;
+    -ms-transition: background-color 250ms;
+    transition: background-color 250ms;
+}
+
+.btnForm:active {
+    box-shadow: inset -2px 0px 4px 3px rgba(0, 0, 0, 0.2);
+    background-color: var(--blue1);
+}
+
+/* ---------------------------------------------------------- */
+/* -----------------------MEDIA QUERIES --------------------- */
+/* ---------------------------------------------------------- */
+@media only screen and (min-width: 768px) {
+    .contactSection {
+        max-width: 1100px;
+        margin: auto;
+    }
+    .contact_form {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "name  name"
+            "email phone"
+            "message  message"
+            "btn btn";
+    }
+}
