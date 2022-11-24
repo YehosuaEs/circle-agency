@@ -6,11 +6,11 @@
   <img width="300" src="https://user-images.githubusercontent.com/93733677/203830001-0a44a511-5e72-4fb4-8bb6-d5967b1e5fcf.svg" alt="Circle agency Logo">
   <h3 align="center">Circle Agency</h3>
   <div align="center">
+    <a>Frontend project</a>
+    </br>
     ·
     <a href="https://circleagency.netlify.app/">View deployed demo</a>
     ·
-    </br>
-    <a>Frontend project</a>
   </div>
 </div>
 </br>
