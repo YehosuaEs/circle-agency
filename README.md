@@ -3,7 +3,7 @@
 # Midterm CIrcle Agency
 
 <div align="center"> 
-  <img width="100" src="https://user-images.githubusercontent.com/93733677/203828399-1002aee3-20d0-4474-b7b7-d2664047296a.png" alt="Circle agency Logo">
+  <img width="100" src="https://user-images.githubusercontent.com/93733677/203830001-0a44a511-5e72-4fb4-8bb6-d5967b1e5fcf.svg" alt="Circle agency Logo">
   <h3 align="center">Circle Agency</h3>
   <div align="center">
     ·
