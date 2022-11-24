@@ -151,6 +151,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .hero_content {
@@ -685,7 +686,7 @@ header {
 
     .hero_img {
         position: absolute;
-        top: 150px;
+        top: 1px;
         right: 100px;
         max-width: 61vw;
     }
@@ -787,10 +788,13 @@ header {
         margin-left: 20px;
         padding: 0 50px;
     }
+
     .footContainer {
         flex-direction: row;
         text-align: start;
-        justify-content: space-around;
+        justify-content: space-between;
+        max-width: 1100px;
+        margin: auto;
     }
     .footContent > address {
         margin: 0;
@@ -805,24 +809,27 @@ header {
 /* ---------------------------------------------------------- */
 @media only screen and (min-width: 1360px) {
     .hero_content {
-        margin-left: 0;
-        margin-top: 120px;
+        margin-left: 0px;
+        margin-top: 80px;
     }
     .hero_content > h1 {
-        font-size: 3.75em;
+        font-size: 3.5em;
     }
     .hero_description {
         font-size: 1.3em;
     }
+    .hero_img {
+        right: 0px;
+    }
     .heroMain_img {
-        width: 570px;
+        width: 500px;
     }
     .heroCard {
-        width: 350px;
+        width: 300px;
     }
 
     .heroLike {
-        width: 350px;
+        width: 300px;
         bottom: -130px;
     }
     .logosSection {
@@ -889,3 +896,33 @@ header {
 }
 /* ---------------------------------------------------------- */
 /* ---------------------------------------------------------- */
+@media only screen and (min-width: 1536px) {
+    .hero_content h1,
+    .hero_description {
+        width: 35vw;
+    }
+}
+/* ---------------------------------------------------------- */
+/* ---------------------------------------------------------- */
+@media only screen and (min-width: 1800px) {
+    .hero_content h1,
+    .hero_description {
+        width: 30vw;
+    }
+}
+/* ---------------------------------------------------------- */
+/* ---------------------------------------------------------- */
+@media only screen and (min-width: 1920px) {
+    .hero_content h1,
+    .hero_description {
+        width: 25vw;
+    }
+}
+/* ---------------------------------------------------------- */
+/* ---------------------------------------------------------- */
+@media only screen and (min-width: 2400px) {
+    .hero_content h1,
+    .hero_description {
+        width: 20vw;
+    }
+}
