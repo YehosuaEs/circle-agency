@@ -17,8 +17,6 @@
 </br>
 </br>
 
-The goal is building and deploying a fully responsive website using the technologies as: HTML, CSS &amp; JavaScript.
-
 </br>
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -57,6 +55,8 @@ The goal is building and deploying a fully responsive website using the technolo
 </br>
 
 ## About the project
+
+The goal is building and deploying a fully responsive website using the technologies as: HTML, CSS &amp; JavaScript.
 
 <!-- Demo  -->
 
