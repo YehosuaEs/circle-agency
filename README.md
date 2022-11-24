@@ -2,6 +2,16 @@
 
 # Midterm CIrcle Agency
 
+<div align="center"> 
+  <img src="https://user-images.githubusercontent.com/93733677/203828399-1002aee3-20d0-4474-b7b7-d2664047296a.png" alt="Circle agency Logo">
+  <h3 align="center">Circle Agency</h3>
+  <div align="center">
+    ·
+    <a href="https://circleagency.netlify.app/">View deployed demo</a>
+    ·
+  </div>
+</div>
+
 Frontend Midterm Project.
 the goal is Building and deploying a fully responsive website using the technologies as: HTML, CSS &amp; JavaScript.
 
@@ -83,7 +93,6 @@ This design also includes a few specifications regarding fonts and colors.
 |–– LICENSE                     # License project
 |–– README.md                   # Project description
 ```
-
 
 ### Directory
 
