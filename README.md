@@ -9,10 +9,10 @@
     ·
     <a href="https://circleagency.netlify.app/">View deployed demo</a>
     ·
+    </br>
     <a>Frontend project</a>
   </div>
 </div>
-</br>
 </br>
 </br>
 
