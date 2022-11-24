@@ -11,6 +11,7 @@
     ·
   </div>
 </div>
+</br>
 
 Frontend Midterm Project.
 the goal is Building and deploying a fully responsive website using the technologies as: HTML, CSS &amp; JavaScript.
