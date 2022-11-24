@@ -84,7 +84,7 @@ This design also includes a few specifications regarding fonts and colors.
 |–– README.md                   # Project description
 ```
 
-### directory
+### Directory
 
 ```
 .
