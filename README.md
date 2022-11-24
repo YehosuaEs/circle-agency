@@ -9,13 +9,13 @@
     ·
     <a href="https://circleagency.netlify.app/">View deployed demo</a>
     ·
+    <a>Frontend project</a>
   </div>
 </div>
 </br>
 </br>
 </br>
 
-Frontend project.\n
 The goal is building and deploying a fully responsive website using the technologies as: HTML, CSS &amp; JavaScript.
 
 </br>
