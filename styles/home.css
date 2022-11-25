@@ -499,8 +499,7 @@ header {
 /* ------------------- FOOTER SECTION FIRTS MOBILE ------------------- */
 /* ------------------------------------------------------------------- */
 .footSection {
-    margin-top: 60px;
-    padding: 0 30px 100px 30px;
+    padding: 0 30px;
 }
 .footContainer {
     display: flex;
@@ -616,6 +615,10 @@ header {
     }
     .opinions_text {
         max-width: 100vw;
+    }
+
+    .footSection {
+        padding: 60px 30px;
     }
 }
 /* ---------------------------------------------------------- */
@@ -787,6 +790,12 @@ header {
         margin: 0;
         margin-left: 20px;
         padding: 0 50px;
+    }
+
+    .footSection {
+        max-width: 1110px;
+        margin: auto;
+        padding-top: 200px 30px;
     }
     .footContainer {
         flex-direction: row;
